@@ -12,7 +12,7 @@ class Stack{
 
     pop(){
         this.table[this.count--];
-        console.log(this.table)
+        console.log(this.table[this.count])
     }
 }
 
